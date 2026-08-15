@@ -1,0 +1,12 @@
+# Versões testadas em Python 3.14 / Windows 11.
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+lightgbm>=4.5
+matplotlib>=3.8
+joblib>=1.4
+pyarrow>=15.0
+kaggle>=2.2          # download do PaySim; autenticar com `kaggle auth login`
+streamlit>=1.40
+plotly>=5.20
+pytest>=8.0

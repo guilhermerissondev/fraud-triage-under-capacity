@@ -1,0 +1,93 @@
+{
+  "dataset": {
+    "transacoes_totais": 6362620,
+    "escopo": 2770409,
+    "prevalencia_escopo": 0.002964544224336551
+  },
+  "regra_do_gerador": {
+    "alertas": 8025,
+    "verdadeiros_positivos": 8024,
+    "falsos_positivos": 1,
+    "falsos_negativos": 189,
+    "recall": 0.9769877024229879,
+    "precisao": 0.9998753894080997,
+    "valor_capturado": 10547398416.82,
+    "valor_total_fraudado": 12056415427.84
+  },
+  "modelos": {
+    "com_atalho": {
+      "pr_auc": 0.9999999999999999,
+      "roc_auc": 1.0,
+      "brier": 3.391526370005644e-08,
+      "prevalencia": 0.001585400561957645,
+      "precisao@100": 1.0,
+      "recall@100": 0.12048192771084337,
+      "precisao@500": 1.0,
+      "recall@500": 0.6024096385542169,
+      "precisao@1000": 0.83,
+      "recall@1000": 1.0,
+      "precisao@5000": 0.166,
+      "recall@5000": 1.0,
+      "vdr@100": 0.04232333671767059,
+      "vdr@500": 0.5631810736773385,
+      "vdr@1000": 1.0000000000000002,
+      "vdr@5000": 1.0000000000000002
+    },
+    "honesto": {
+      "pr_auc": 0.40607885050351267,
+      "roc_auc": 0.9338355428613286,
+      "brier": 0.0011656794172107338,
+      "prevalencia": 0.001585400561957645,
+      "precisao@100": 0.99,
+      "recall@100": 0.11927710843373494,
+      "precisao@500": 0.618,
+      "recall@500": 0.372289156626506,
+      "precisao@1000": 0.355,
+      "recall@1000": 0.42771084337349397,
+      "precisao@5000": 0.1012,
+      "recall@5000": 0.6096385542168675,
+      "vdr@100": 0.2952502919422999,
+      "vdr@500": 0.6883417595937255,
+      "vdr@1000": 0.81508693326504,
+      "vdr@5000": 0.9157136697747474
+    }
+  },
+  "triagem": {
+    "capacidade_diaria": 200,
+    "capacidade_otima": 5395,
+    "por_probabilidade": {
+      "capacidade_diaria": 200.0,
+      "alertas_revisados": 600.0,
+      "alertas_por_dia": 200.0,
+      "fraudes_pegas": 323.0,
+      "fraudes_escapadas": 507.0,
+      "recall_contagem": 0.3891566265060241,
+      "vdr": 0.7313865170259403,
+      "precisao_da_fila": 0.5383333333333333,
+      "valor_evitado": 1005054100.7099998,
+      "valor_perdido": 313753965.71,
+      "custo_operacao": 300000.0,
+      "custo_friccao": 554000.0,
+      "beneficio_liquido": 1004200100.7099998,
+      "ganho_vs_probabilidade": 0.0,
+      "ganho_pct": 0.0
+    },
+    "por_valor_em_risco": {
+      "capacidade_diaria": 200.0,
+      "alertas_revisados": 600.0,
+      "alertas_por_dia": 200.0,
+      "fraudes_pegas": 225.0,
+      "fraudes_escapadas": 605.0,
+      "recall_contagem": 0.2710843373493976,
+      "vdr": 0.769959175009732,
+      "precisao_da_fila": 0.375,
+      "valor_evitado": 1058059737.51,
+      "valor_perdido": 268699174.42999995,
+      "custo_operacao": 300000.0,
+      "custo_friccao": 750000.0,
+      "beneficio_liquido": 1057009737.51,
+      "ganho_vs_probabilidade": 52809636.80000019,
+      "ganho_pct": 0.05258875871717418
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "alertas": 8025,
+  "verdadeiros_positivos": 8024,
+  "falsos_positivos": 1,
+  "falsos_negativos": 189,
+  "recall": 0.9769877024229879,
+  "precisao": 0.9998753894080997,
+  "valor_capturado": 10547398416.82,
+  "valor_total_fraudado": 12056415427.84
+}

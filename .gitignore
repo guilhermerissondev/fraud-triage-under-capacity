@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# O CSV do PaySim tem 493 MB e é reproduzível por `python -m scripts.train`.
+data/raw/
+data/processed/*.parquet
+models/*.joblib
+
+# Nunca versionar credencial do Kaggle.
+kaggle.json
+access_token
+
+# As figuras e tabelas de reports/ ficam versionadas de propósito: são o
+# que o README referencia e o que alguém vê sem rodar nada.
